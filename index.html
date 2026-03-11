@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abhay Pandey | Portfolio</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: Arial, Helvetica, sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0f172a;
+color:white;
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+background:#020617;
+position:sticky;
+top:0;
+}
+
+nav h1{
+color:#38bdf8;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+}
+
+nav ul li{
+margin-left:25px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+font-size:15px;
+transition:0.3s;
+}
+
+nav ul li a:hover{
+color:#38bdf8;
+}
+
+/* HERO */
+
+.hero{
+height:90vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+.hero img{
+width:180px;
+height:180px;
+border-radius:50%;
+border:4px solid #38bdf8;
+object-fit:cover;
+margin-bottom:20px;
+}
+
+.hero h2{
+font-size:36px;
+margin-bottom:10px;
+}
+
+.hero p{
+color:#cbd5f5;
+max-width:500px;
+margin:auto;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:10px 25px;
+background:#38bdf8;
+color:#020617;
+text-decoration:none;
+border-radius:25px;
+font-weight:bold;
+}
+
+/* SECTIONS */
+
+section{
+padding:80px 10%;
+}
+
+section h2{
+text-align:center;
+margin-bottom:40px;
+color:#38bdf8;
+}
+
+/* SKILLS */
+
+.skills{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+.skill-card{
+background:#020617;
+padding:25px;
+border-radius:10px;
+text-align:center;
+transition:0.3s;
+}
+
+.skill-card:hover{
+transform:translateY(-5px);
+}
+
+/* EXPERIENCE */
+
+.exp-box{
+background:#020617;
+padding:25px;
+border-radius:10px;
+max-width:700px;
+margin:auto;
+text-align:center;
+}
+
+/* PROJECTS */
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.project{
+background:#020617;
+padding:20px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.project:hover{
+transform:scale(1.05);
+}
+
+/* CONTACT */
+
+.contact{
+text-align:center;
+}
+
+.contact a{
+color:#38bdf8;
+text-decoration:none;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:20px;
+background:#020617;
+color:#94a3b8;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+nav{
+flex-direction:column;
+}
+
+nav ul{
+margin-top:10px;
+}
+
+.hero h2{
+font-size:28px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav>
+
+<h1>Abhay</h1>
+
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#experience">Experience</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+</nav>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<div>
+
+<img src="abhay.jpg" alt="Abhay Pandey">
+
+<h2>Abhay Pandey</h2>
+
+<p>
+Creative Video Editor and Graphic Designer with 1.5 years of experience creating engaging digital content, thumbnails, and visual designs for online creators.
+</p>
+
+<a class="btn" href="#contact">Hire Me</a>
+
+</div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<div class="exp-box">
+
+<p>
+Hello! I'm <b>Abhay Pandey</b>, a passionate creative professional specializing in video editing and graphic designing. I love creating engaging content that helps creators grow their audience and build strong digital brands.
+</p>
+
+</div>
+
+</section>
+
+<!-- SKILLS -->
+
+<section id="skills">
+
+<h2>Skills</h2>
+
+<div class="skills">
+
+<div class="skill-card">
+<h3>Video Editing</h3>
+<p>Professional editing for YouTube and social media content.</p>
+</div>
+
+<div class="skill-card">
+<h3>Graphic Designing</h3>
+<p>Creative graphics and visual designs.</p>
+</div>
+
+<div class="skill-card">
+<h3>Thumbnail Design</h3>
+<p>Eye-catching thumbnails that increase clicks.</p>
+</div>
+
+<div class="skill-card">
+<h3>Content Creation</h3>
+<p>Visual storytelling and creative editing.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- EXPERIENCE -->
+
+<section id="experience">
+
+<h2>Experience</h2>
+
+<div class="exp-box">
+
+<h3>Creative Professional</h3>
+
+<p>
+1.5 years of experience working in video editing and graphic design. I have worked with digital creators to produce engaging content, thumbnails, and social media visuals.
+</p>
+
+</div>
+
+</section>
+
+<!-- PROJECTS -->
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div class="projects">
+
+<div class="project">
+<h3>YouTube Video Editing</h3>
+<p>Edited engaging YouTube videos with transitions, effects, and storytelling.</p>
+</div>
+
+<div class="project">
+<h3>Thumbnail Design</h3>
+<p>Created high-CTR thumbnails for YouTube creators.</p>
+</div>
+
+<div class="project">
+<h3>Social Media Graphics</h3>
+<p>Designed promotional graphics and branding visuals.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<div class="contact">
+
+<p>Email: <a href="mailto:abhaycreats@gmail.com">abhaycreats@gmail.com</a></p>
+
+<p>Instagram: <a href="#">Add your link</a></p>
+
+<p>YouTube: <a href="#">Add your link</a></p>
+
+<p>LinkedIn: <a href="#">Add your link</a></p>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 Abhay Pandey | Portfolio</p>
+
+</footer>
+
+</body>
+  </html>
